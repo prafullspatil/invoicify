@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Tili",
+    "heading": "Tilin asetukset",
+    "app_language": "Sovelluksen kieli",
+    "description": "Jos haluat käyttää toista kieltä, voit vaihtaa sovelluksen käyttöliittymän kielen täältä."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Kaupan nimi"
+    }
+  },
+  "navigation": {
+    "home": "Koti",
+    "orders": "Tilaukset",
+    "drafts": "Luonnokset",
+    "templates": "Mallit"
+  },
+  "integrations": {
+    "title": "Integraatiot",
+    "collect_customer_tax_no": {
+      "title": "Kerää asiakkaan veronumero",
+      "description": "Lisäämällä kenttiä ostoskorisivulle asiakkaiden veronumeroiden keräämiseksi voit käyttää niitä saumattomasti asiakirjoissasi.",
+      "button_label": "Määritä sovelluslohko"
+    },
+    "my_account_download": {
+      "title": "Lataa Omilta sivuilta",
+      "description": "Salli asiakkaiden ladata laskuja suoraan omalta tilisivultaan. Yksinkertaistaa asiakirjojen käyttöä asiakkaillesi.",
+      "button_label": "Määritä sovelluslohko"
+    },
+    "thank_you_page_download": {
+      "title": "Lataa kiitossivulta",
+      "description": "Ota käyttöön laskujen lataaminen suoraan kiitossivulta kassalla. Tarjoaa välittömän pääsyn asiakirjoihin.",
+      "button_label": "Määritä sovelluslohko"
+    }
+  }
+}

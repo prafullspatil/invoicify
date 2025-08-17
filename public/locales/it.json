@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Account",
+    "heading": "Impostazioni account",
+    "app_language": "Lingua dell'app",
+    "description": "Se desideri utilizzare una lingua diversa, puoi cambiare la lingua dell'interfaccia dell'app qui."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Nome del negozio"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "orders": "Ordini",
+    "drafts": "Bozze",
+    "templates": "Modelli"
+  },
+  "integrations": {
+    "title": "Integrazioni",
+    "collect_customer_tax_no": {
+      "title": "Raccogli Partita IVA del cliente",
+      "description": "Aggiungendo campi alla pagina del carrello per raccogliere i numeri di Partita IVA dei tuoi clienti, puoi utilizzarli senza problemi nei tuoi documenti.",
+      "button_label": "Configura blocco app"
+    },
+    "my_account_download": {
+      "title": "Download da Il Mio Account",
+      "description": "Consenti ai clienti di scaricare le fatture direttamente dalla loro pagina account. Semplifica l'accesso ai documenti per i tuoi clienti.",
+      "button_label": "Configura blocco app"
+    },
+    "thank_you_page_download": {
+      "title": "Download dalla pagina di ringraziamento",
+      "description": "Abilita il download delle fatture direttamente dalla pagina di ringraziamento dopo il checkout. Fornisce un accesso immediato ai documenti.",
+      "button_label": "Configura blocco app"
+    }
+  }
+}

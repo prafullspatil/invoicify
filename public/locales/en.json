@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Account",
+    "heading": "Account settings",
+    "app_language": "App Language",
+    "description": "If you'd like to use a different language, you can change the app's interface language here."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Store name"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "orders": "Orders",
+    "drafts": "Drafts",
+    "templates": "Templates"
+  },
+  "integrations": {
+    "title": "Integrations",
+    "collect_customer_tax_no": {
+      "title": "Collect Customer Tax No",
+      "description": "By adding fields to the cart page to collect your customers TAX numbers, you can use them in your documents seamlessly.",
+      "button_label": "Configure App Block"
+    },
+    "my_account_download": {
+      "title": "My Account Download",
+      "description": "Allow customers to download invoices directly from their account page. Simplifies document access for your customers.",
+      "button_label": "Configure App Block"
+    },
+    "thank_you_page_download": {
+      "title": "Thank You Page Download",
+      "description": "Enable invoice downloads directly from the thank you page after checkout. Provides immediate document access.",
+      "button_label": "Configure App Block"
+    }
+  }
+}

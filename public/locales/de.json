@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Konto",
+    "heading": "Kontoeinstellungen",
+    "app_language": "App-Sprache",
+    "description": "Wenn Sie eine andere Sprache verwenden möchten, können Sie hier die Sprache der App-Oberfläche ändern."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Shop-Name"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "orders": "Bestellungen",
+    "drafts": "Entwürfe",
+    "templates": "Vorlagen"
+  },
+  "integrations": {
+    "title": "Integrationen",
+    "collect_customer_tax_no": {
+      "title": "Steuernummer des Kunden erfassen",
+      "description": "Indem Sie Felder zur Warenkorbseite hinzufügen, um die Steuernummern Ihrer Kunden zu erfassen, können Sie diese nahtlos in Ihren Dokumenten verwenden.",
+      "button_label": "App-Block konfigurieren"
+    },
+    "my_account_download": {
+      "title": "Download aus Mein Konto",
+      "description": "Ermöglichen Sie Kunden, Rechnungen direkt von ihrer Kontoseite herunterzuladen. Vereinfacht den Dokumentenzugriff für Ihre Kunden.",
+      "button_label": "App-Block konfigurieren"
+    },
+    "thank_you_page_download": {
+      "title": "Download von der Dankesseite",
+      "description": "Aktivieren Sie den Rechnungsdownload direkt von der Dankesseite nach dem Checkout. Bietet sofortigen Zugriff auf Dokumente.",
+      "button_label": "App-Block konfigurieren"
+    }
+  }
+}

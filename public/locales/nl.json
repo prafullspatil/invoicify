@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Account",
+    "heading": "Accountinstellingen",
+    "app_language": "App-taal",
+    "description": "Als u een andere taal wilt gebruiken, kunt u hier de interfacetaal van de app wijzigen."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Winkelnaam"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "orders": "Bestellingen",
+    "drafts": "Concepten",
+    "templates": "Sjablonen"
+  },
+  "integrations": {
+    "title": "Integraties",
+    "collect_customer_tax_no": {
+      "title": "Btw-nummer van klant verzamelen",
+      "description": "Door velden aan de winkelwagenpagina toe te voegen om de btw-nummers van uw klanten te verzamelen, kunt u ze naadloos in uw documenten gebruiken.",
+      "button_label": "App-blok configureren"
+    },
+    "my_account_download": {
+      "title": "Downloaden via Mijn account",
+      "description": "Sta klanten toe om facturen rechtstreeks vanaf hun accountpagina te downloaden. Vereenvoudigt de toegang tot documenten voor uw klanten.",
+      "button_label": "App-blok configureren"
+    },
+    "thank_you_page_download": {
+      "title": "Downloaden vanaf bedankpagina",
+      "description": "Schakel het downloaden van facturen rechtstreeks vanaf de bedankpagina na het afrekenen in. Biedt onmiddellijke toegang tot documenten.",
+      "button_label": "App-blok configureren"
+    }
+  }
+}

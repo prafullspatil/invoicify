@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Konto",
+    "heading": "Kontoinnstillinger",
+    "app_language": "App-språk",
+    "description": "Hvis du vil bruke et annet språk, kan du endre appens grensesnittspråk her."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Butikknavn"
+    }
+  },
+  "navigation": {
+    "home": "Hjem",
+    "orders": "Bestillinger",
+    "drafts": "Utkast",
+    "templates": "Maler"
+  },
+  "integrations": {
+    "title": "Integrasjoner",
+    "collect_customer_tax_no": {
+      "title": "Samle inn kundens skattenummer",
+      "description": "Ved å legge til felt på handlekurvsiden for å samle inn kundenes skattenumre, kan du bruke dem sømløst i dokumentene dine.",
+      "button_label": "Konfigurer app-blokk"
+    },
+    "my_account_download": {
+      "title": "Last ned fra Min konto",
+      "description": "Tillat kunder å laste ned fakturaer direkte fra kontosiden sin. Forenkler dokumenttilgang for kundene dine.",
+      "button_label": "Konfigurer app-blokk"
+    },
+    "thank_you_page_download": {
+      "title": "Last ned fra takkesiden",
+      "description": "Aktiver fakturanedlastinger direkte fra takkesiden etter utsjekking. Gir umiddelbar dokumenttilgang.",
+      "button_label": "Konfigurer app-blokk"
+    }
+  }
+}

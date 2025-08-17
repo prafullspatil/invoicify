@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "アカウント",
+    "heading": "アカウント設定",
+    "app_language": "アプリの言語",
+    "description": "別の言語を使用したい場合は、ここでアプリのインターフェース言語を変更できます。"
+  },
+  "components": {
+    "text_field": {
+      "store_name": "ストア名"
+    }
+  },
+  "navigation": {
+    "home": "ホーム",
+    "orders": "注文",
+    "drafts": "下書き",
+    "templates": "テンプレート"
+  },
+  "integrations": {
+    "title": "統合",
+    "collect_customer_tax_no": {
+      "title": "顧客の税番号を収集",
+      "description": "カートページにフィールドを追加して顧客の税番号を収集することで、ドキュメントでシームレスに使用できます。",
+      "button_label": "アプリブロックを設定"
+    },
+    "my_account_download": {
+      "title": "マイアカウントからのダウンロード",
+      "description": "顧客がアカウントページから直接請求書をダウンロードできるようにします。顧客のドキュメントアクセスを簡素化します。",
+      "button_label": "アプリブロックを設定"
+    },
+    "thank_you_page_download": {
+      "title": "サンキューページからのダウンロード",
+      "description": "チェックアウト後のサンキューページから直接請求書のダウンロードを有効にします。即時のドキュメントアクセスを提供します。",
+      "button_label": "アプリブロックを設定"
+    }
+  }
+}

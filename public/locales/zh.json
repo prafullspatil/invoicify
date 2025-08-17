@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "账户",
+    "heading": "账户设置",
+    "app_language": "应用语言",
+    "description": "如果您想使用不同的语言，您可以在此处更改应用程序的界面语言。"
+  },
+  "components": {
+    "text_field": {
+      "store_name": "商店名称"
+    }
+  },
+  "navigation": {
+    "home": "主页",
+    "orders": "订单",
+    "drafts": "草稿",
+    "templates": "模板"
+  },
+  "integrations": {
+    "title": "集成",
+    "collect_customer_tax_no": {
+      "title": "收集客户税号",
+      "description": "通过在购物车页面添加字段来收集客户的税号，您可以无缝地在文档中使用它们。",
+      "button_label": "配置应用程序块"
+    },
+    "my_account_download": {
+      "title": "我的账户下载",
+      "description": "允许客户直接从他们的账户页面下载发票。简化客户的文档访问。",
+      "button_label": "配置应用程序块"
+    },
+    "thank_you_page_download": {
+      "title": "感谢页面下载",
+      "description": "结账后直接从感谢页面启用发票下载。提供即时文档访问。",
+      "button_label": "配置应用程序块"
+    }
+  }
+}

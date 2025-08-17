@@ -3,7 +3,7 @@
 client_id = "f94091c524c15384e0e803f861b4c262"
 name = "Invoicify"
 handle = "invoicify-4"
-application_url = "https://magical-held-indiana-not.trycloudflare.com"
+application_url = "https://vast-eagles-nd-embassy.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://magical-held-indiana-not.trycloudflare.com/auth/callback", "https://magical-held-indiana-not.trycloudflare.com/auth/shopify/callback", "https://magical-held-indiana-not.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://vast-eagles-nd-embassy.trycloudflare.com/auth/callback", "https://vast-eagles-nd-embassy.trycloudflare.com/auth/shopify/callback", "https://vast-eagles-nd-embassy.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

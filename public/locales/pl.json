@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Konto",
+    "heading": "Ustawienia konta",
+    "app_language": "Język aplikacji",
+    "description": "Jeśli chcesz używać innego języka, możesz zmienić język interfejsu aplikacji tutaj."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Nazwa sklepu"
+    }
+  },
+  "navigation": {
+    "home": "Strona główna",
+    "orders": "Zamówienia",
+    "drafts": "Szkice",
+    "templates": "Szablony"
+  },
+  "integrations": {
+    "title": "Integracje",
+    "collect_customer_tax_no": {
+      "title": "Zbieraj numer NIP klienta",
+      "description": "Dodając pola na stronie koszyka do zbierania numerów NIP klientów, możesz bezproblemowo używać ich w swoich dokumentach.",
+      "button_label": "Skonfiguruj blok aplikacji"
+    },
+    "my_account_download": {
+      "title": "Pobieranie z Mojego konta",
+      "description": "Pozwól klientom pobierać faktury bezpośrednio z ich strony konta. Upraszcza dostęp do dokumentów dla Twoich klientów.",
+      "button_label": "Skonfiguruj blok aplikacji"
+    },
+    "thank_you_page_download": {
+      "title": "Pobieranie ze strony podziękowania",
+      "description": "Włącz pobieranie faktur bezpośrednio ze strony podziękowania po dokonaniu zakupu. Zapewnia natychmiastowy dostęp do dokumentów.",
+      "button_label": "Skonfiguruj blok aplikacji"
+    }
+  }
+}

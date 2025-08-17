@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Compte",
+    "heading": "Paramètres du compte",
+    "app_language": "Langue de l'application",
+    "description": "Si vous souhaitez utiliser une autre langue, vous pouvez modifier ici la langue de l'interface de l'application."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Nom du magasin"
+    }
+  },
+  "navigation": {
+    "home": "Accueil",
+    "orders": "Commandes",
+    "drafts": "Brouillons",
+    "templates": "Modèles"
+  },
+  "integrations": {
+    "title": "Intégrations",
+    "collect_customer_tax_no": {
+      "title": "Collecter le numéro de taxe du client",
+      "description": "En ajoutant des champs à la page du panier pour collecter les numéros de TAXE de vos clients, vous pouvez les utiliser de manière transparente dans vos documents.",
+      "button_label": "Configurer le bloc d'application"
+    },
+    "my_account_download": {
+      "title": "Téléchargement depuis Mon Compte",
+      "description": "Permettez aux clients de télécharger les factures directement depuis leur page de compte. Simplifie l'accès aux documents pour vos clients.",
+      "button_label": "Configurer le bloc d'application"
+    },
+    "thank_you_page_download": {
+      "title": "Téléchargement depuis la page de remerciement",
+      "description": "Activez le téléchargement des factures directement depuis la page de remerciement après le paiement. Fournit un accès immédiat aux documents.",
+      "button_label": "Configurer le bloc d'application"
+    }
+  }
+}

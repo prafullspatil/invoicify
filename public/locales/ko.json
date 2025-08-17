@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "계정",
+    "heading": "계정 설정",
+    "app_language": "앱 언어",
+    "description": "다른 언어를 사용하려면 여기에서 앱의 인터페이스 언어를 변경할 수 있습니다."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "스토어 이름"
+    }
+  },
+  "navigation": {
+    "home": "홈",
+    "orders": "주문",
+    "drafts": "초안",
+    "templates": "템플릿"
+  },
+  "integrations": {
+    "title": "통합",
+    "collect_customer_tax_no": {
+      "title": "고객 세금 번호 수집",
+      "description": "장바구니 페이지에 필드를 추가하여 고객의 세금 번호를 수집하면 문서에서 원활하게 사용할 수 있습니다.",
+      "button_label": "앱 블록 구성"
+    },
+    "my_account_download": {
+      "title": "내 계정에서 다운로드",
+      "description": "고객이 계정 페이지에서 직접 인보이스를 다운로드할 수 있도록 허용합니다. 고객의 문서 액세스를 단순화합니다.",
+      "button_label": "앱 블록 구성"
+    },
+    "thank_you_page_download": {
+      "title": "감사 페이지에서 다운로드",
+      "description": "결제 후 감사 페이지에서 직접 인보이스 다운로드를 활성화합니다. 즉각적인 문서 액세스를 제공합니다.",
+      "button_label": "앱 블록 구성"
+    }
+  }
+}

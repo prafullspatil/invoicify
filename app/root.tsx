@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import bootstrapStyles from "bootstrap/dist/css/bootstrap.min.css?url";
+import "./i18n";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: bootstrapStyles },

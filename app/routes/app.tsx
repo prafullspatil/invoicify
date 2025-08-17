@@ -1,14 +1,16 @@
-import type {
-  HeadersFunction,
-  LinksFunction,
-  LoaderFunctionArgs,
+import {
+  json,
+  type HeadersFunction,
+  type LinksFunction,
+  type LoaderFunctionArgs,
 } from "@remix-run/node";
 import { Link, Outlet, useLoaderData, useRouteError } from "@remix-run/react";
-import { boundary } from "@shopify/shopify-app-remix/server";
 import { AppProvider } from "@shopify/shopify-app-remix/react";
+import { boundary } from "@shopify/shopify-app-remix/server";
 import { NavMenu } from "@shopify/app-bridge-react";
 import polarisStyles from "@shopify/polaris/build/esm/styles.css?url";
 import { authenticate } from "../shopify.server";
+import { useTranslation } from "react-i18next";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: polarisStyles },
@@ -17,23 +19,24 @@ export const links: LinksFunction = () => [
 export const loader = async ({ request }: LoaderFunctionArgs) => {
   await authenticate.admin(request);
 
-  return { apiKey: process.env.SHOPIFY_API_KEY || "" };
+  return json({ apiKey: process.env.SHOPIFY_API_KEY || "" });
 };
 
 export default function App() {
   const { apiKey } = useLoaderData<typeof loader>();
+  const { t } = useTranslation();
 
   return (
     <AppProvider isEmbeddedApp apiKey={apiKey}>
       <NavMenu>
         <Link to="/app" rel="home">
-          Home
+          {t("navigation.home")}
         </Link>
-        <Link to="/app/orders">Orders</Link>
-        <Link to="/app/drafts">Drafts</Link>
-        <Link to="/app/templates">Templates</Link>
-        <Link to="/app/account">Account</Link>
-        <Link to="/app/integrations">Integrations</Link>
+        <Link to="/app/orders">{t("navigation.orders")}</Link>
+        <Link to="/app/drafts">{t("navigation.drafts")}</Link>
+        <Link to="/app/templates">{t("navigation.templates")}</Link>
+        <Link to="/app/account">{t("account.title")}</Link>
+        <Link to="/app/integrations">{t("integrations.title")}</Link>
       </NavMenu>
       <Outlet />
     </AppProvider>

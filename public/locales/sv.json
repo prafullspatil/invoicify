@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Konto",
+    "heading": "Kontoinställningar",
+    "app_language": "Appens språk",
+    "description": "Om du vill använda ett annat språk kan du ändra appens gränssnittsspråk här."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Butiksnamn"
+    }
+  },
+  "navigation": {
+    "home": "Hem",
+    "orders": "Beställningar",
+    "drafts": "Utkast",
+    "templates": "Mallar"
+  },
+  "integrations": {
+    "title": "Integrationer",
+    "collect_customer_tax_no": {
+      "title": "Samla in kundens momsnummer",
+      "description": "Genom att lägga till fält på kundvagnssidan för att samla in dina kunders momsnummer kan du använda dem sömlöst i dina dokument.",
+      "button_label": "Konfigurera appblock"
+    },
+    "my_account_download": {
+      "title": "Ladda ner från Mitt konto",
+      "description": "Tillåt kunder att ladda ner fakturor direkt från sin kontosida. Förenklar dokumentåtkomst för dina kunder.",
+      "button_label": "Konfigurera appblock"
+    },
+    "thank_you_page_download": {
+      "title": "Ladda ner från tacksidan",
+      "description": "Aktivera nedladdning av fakturor direkt från tacksidan efter utcheckning. Ger omedelbar dokumentåtkomst.",
+      "button_label": "Konfigurera appblock"
+    }
+  }
+}

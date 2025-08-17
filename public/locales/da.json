@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Konto",
+    "heading": "Kontoindstillinger",
+    "app_language": "App-sprog",
+    "description": "Hvis du gerne vil bruge et andet sprog, kan du ændre appens grænsefladesprog her."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Butiksnavn"
+    }
+  },
+  "navigation": {
+    "home": "Hjem",
+    "orders": "Ordrer",
+    "drafts": "Kladder",
+    "templates": "Skabeloner"
+  },
+  "integrations": {
+    "title": "Integrationer",
+    "collect_customer_tax_no": {
+      "title": "Indsaml kundens momsnummer",
+      "description": "Ved at tilføje felter til indkøbskurvssiden for at indsamle dine kunders momsnumre, kan du bruge dem problemfrit i dine dokumenter.",
+      "button_label": "Konfigurer app-blok"
+    },
+    "my_account_download": {
+      "title": "Download fra Min konto",
+      "description": "Tillad kunder at downloade fakturaer direkte fra deres kontoside. Forenkler dokumentadgang for dine kunder.",
+      "button_label": "Konfigurer app-blok"
+    },
+    "thank_you_page_download": {
+      "title": "Download fra takkeside",
+      "description": "Aktiver fakturadownloads direkte fra takkesiden efter checkout. Giver øjeblikkelig dokumentadgang.",
+      "button_label": "Konfigurer app-blok"
+    }
+  }
+}

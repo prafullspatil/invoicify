@@ -1,0 +1,37 @@
+{
+  "account": {
+    "title": "Conta",
+    "heading": "Configurações da conta",
+    "app_language": "Idioma do aplicativo",
+    "description": "Se você quiser usar um idioma diferente, pode alterar o idioma da interface do aplicativo aqui."
+  },
+  "components": {
+    "text_field": {
+      "store_name": "Nome da loja"
+    }
+  },
+  "navigation": {
+    "home": "Início",
+    "orders": "Pedidos",
+    "drafts": "Rascunhos",
+    "templates": "Modelos"
+  },
+  "integrations": {
+    "title": "Integrações",
+    "collect_customer_tax_no": {
+      "title": "Coletar NIF do cliente",
+      "description": "Ao adicionar campos à página do carrinho para coletar os números de NIF dos seus clientes, você pode usá-los em seus documentos sem problemas.",
+      "button_label": "Configurar bloco de aplicativo"
+    },
+    "my_account_download": {
+      "title": "Download da Minha Conta",
+      "description": "Permita que os clientes baixem faturas diretamente da página da conta deles. Simplifica o acesso a documentos para seus clientes.",
+      "button_label": "Configurar bloco de aplicativo"
+    },
+    "thank_you_page_download": {
+      "title": "Download da página de agradecimento",
+      "description": "Ative o download de faturas diretamente da página de agradecimento após o checkout. Fornece acesso imediato a documentos.",
+      "button_label": "Configurar bloco de aplicativo"
+    }
+  }
+}
